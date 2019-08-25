@@ -1,0 +1,4 @@
+gcc -pthread server.c rs232.c SerialManager.c -o server
+
+
+// pthread is needed so that the OS  includes the content of pthread.h to allow multithread
